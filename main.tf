@@ -10,6 +10,7 @@ resource "aws_s3_bucket" "scalrpocChang" {
 
   tags = {
     Name        = "Name"
-    Environment = "chang test poc"
+    env = "chang test poc"
+    uai = "uai9999999"
   }
 }
